@@ -1,6 +1,4 @@
-FROM python:3.8.2-alpine
-
-LABEL "maintainer"="Jacobi Petrucciani <jacobi@hackerrank.com>"
+FROM python:3.7.4-alpine
 
 ADD requirements.txt /requirements.txt
 ADD entrypoint.sh /entrypoint.sh
