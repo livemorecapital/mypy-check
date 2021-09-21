@@ -108,3 +108,10 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/python
+
+# PyCharm/Idea directory
+.idea
+**/*.iml
+
+# Visual Studio Code files
+.vscode/
